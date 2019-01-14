@@ -17,7 +17,7 @@ app.listen(port, function(){
 });
 
 app.get("/", function(req, res) {
-    res.status(200).send("<h1>I am rest up! No really I am :)</h1>");
+    res.status(200).send("<h1>I am a rest app! No really I am :)</h1>");
 });
 
 app.get("/healthcheck", (req, res) => {
